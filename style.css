@@ -147,3 +147,35 @@ h2 {
     background-color: #C6A75E;
     color: white;
 }
+
+.rsvp {
+    padding: 100px 20px;
+    background-color: #F8F6F2;
+}
+
+.rsvp h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    color: #C6A75E;
+}
+
+.rsvp p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.rsvp-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #C6A75E;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.rsvp-btn:hover {
+    background-color: #a88945;
+}
