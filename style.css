@@ -7,12 +7,19 @@ body {
 }
 
 .hero {
-    padding: 100px 20px;
+    padding: 120px 20px;
+}
+
+.divider {
+    width: 60px;
+    height: 2px;
+    background-color: #C6A75E;
+    margin: 30px auto;
 }
 
 h1 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 40px;
+    font-size: 44px;
     margin: 10px 0;
 }
 
@@ -22,17 +29,35 @@ h2 {
 }
 
 .bismillah {
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-size: 14px;
     color: #C6A75E;
 }
 
 .verse {
-    margin: 20px 0;
+    margin: 25px 0;
     font-style: italic;
 }
 
 .date {
     margin-top: 20px;
     font-size: 18px;
+}
+
+.events {
+    padding: 100px 20px;
+}
+
+.event {
+    margin-bottom: 60px;
+}
+
+.event h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    color: #C6A75E;
+}
+
+.closing {
+    padding: 100px 20px;
 }
