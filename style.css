@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-color: #F8F6F2;
+    color: #2B2B2B;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+    padding: 100px 20px;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.bismillah {
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #C6A75E;
+}
+
+.verse {
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.date {
+    margin-top: 20px;
+    font-size: 18px;
+}
