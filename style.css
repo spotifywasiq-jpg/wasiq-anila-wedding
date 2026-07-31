@@ -61,3 +61,20 @@ h2 {
 .closing {
     padding: 100px 20px;
 }
+
+.countdown {
+    padding: 100px 20px;
+    background-color: #ffffff;
+}
+
+.countdown h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    color: #C6A75E;
+}
+
+#timer {
+    margin-top: 20px;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
