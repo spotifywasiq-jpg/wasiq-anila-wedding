@@ -130,3 +130,20 @@ h2 {
         line-height: 2;
     }
 }
+
+.map-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 20px;
+    border: 1px solid #C6A75E;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #2B2B2B;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.map-btn:hover {
+    background-color: #C6A75E;
+    color: white;
+}
