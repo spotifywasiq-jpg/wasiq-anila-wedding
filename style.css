@@ -78,3 +78,55 @@ h2 {
     font-size: 22px;
     letter-spacing: 2px;
 }
+
+/* Subtle entrance animation */
+.hero,
+.events,
+.countdown,
+.closing {
+    animation: fadeIn 1.2s ease both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+    .hero {
+        padding: 80px 18px;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 1.1;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .verse {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .events,
+    .countdown,
+    .closing {
+        padding: 70px 18px;
+    }
+
+    #timer {
+        font-size: 16px;
+        line-height: 2;
+    }
+}
