@@ -297,3 +297,17 @@ h2 {
         padding: 40px 20px;
     }
 }
+
+.host-line {
+    max-width: 700px;
+    margin: 0 auto 25px auto;
+    font-size: 15px;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+}
+
+.with-text {
+    margin: 5px 0;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
