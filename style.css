@@ -69,14 +69,17 @@ h2 {
 
 .countdown h3 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 28px;
+    font-size: 34px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
     color: #C6A75E;
 }
 
 #timer {
-    margin-top: 20px;
-    font-size: 22px;
-    letter-spacing: 2px;
+    margin-top: 25px;
+    font-size: 28px;
+    letter-spacing: 3px;
+    font-weight: 500;
 }
 
 /* Subtle entrance animation */
