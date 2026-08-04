@@ -77,9 +77,10 @@ h2 {
 
 #timer {
     margin-top: 25px;
-    font-size: 28px;
-    letter-spacing: 3px;
+    font-size: 24px;
+    letter-spacing: 2px;
     font-weight: 500;
+    line-height: 1.6;
 }
 
 /* Subtle entrance animation */
