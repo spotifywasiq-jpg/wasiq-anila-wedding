@@ -312,6 +312,56 @@ h2 {
     letter-spacing: 3px;
 }
 
-.rsvp-card {
-    max-width: 850px;
+.rsvp-section {
+    padding: 120px 20px;
+    background-color: #F8F6F2;
+}
+
+.rsvp-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 48px;
+    color: #C6A75E;
+    margin-bottom: 70px;
+}
+
+.rsvp-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.rsvp-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    border-bottom: 1px solid #e6dcc8;
+}
+
+.rsvp-name {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.rsvp-number {
+    font-size: 16px;
+    color: #666;
+}
+
+.wa-icon {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s ease;
+}
+
+.wa-icon:hover {
+    transform: scale(1.15);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .rsvp-row {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
 }
