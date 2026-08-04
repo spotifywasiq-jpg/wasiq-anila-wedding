@@ -311,3 +311,7 @@ h2 {
     font-size: 18px;
     letter-spacing: 3px;
 }
+
+.rsvp-card {
+    max-width: 850px;
+}
