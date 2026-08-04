@@ -440,3 +440,29 @@ h2 {
     font-size: 19px;
     letter-spacing: 0.5px;
 }
+
+/* Scroll Animation Base */
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* When visible */
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.reminder-btn,
+.map-btn,
+.whatsapp-btn {
+    transition: all 0.3s ease;
+}
+
+.reminder-btn:hover,
+.map-btn:hover,
+.whatsapp-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}

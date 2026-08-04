@@ -1,15 +1,16 @@
-const targetDate = new Date("November 13, 2026 00:00:00").getTime();
+const reveals = document.querySelectorAll(".reveal");
 
-const timer = setInterval(function() {
+function revealOnScroll() {
+    const windowHeight = window.innerHeight;
 
-    const now = new Date().getTime();
-    const distance = targetDate - now;
+    reveals.forEach((element) => {
+        const elementTop = element.getBoundingClientRect().top;
 
-    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        if (elementTop < windowHeight - 80) {
+            element.classList.add("active");
+        }
+    });
+}
 
-    document.getElementById("timer").innerHTML =
-        days + " Days • " + hours + " Hours • " + minutes + " Minutes";
-
-}, 1000);
+window.addEventListener("scroll", revealOnScroll);
+window.addEventListener("load", revealOnScroll);
